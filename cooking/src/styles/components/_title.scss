@@ -1,0 +1,9 @@
+@use '../settings' as settings;
+
+.title{
+    margin: 20px 0;
+
+    h1{
+        color: settings.$color-1;
+    }
+}

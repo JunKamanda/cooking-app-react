@@ -16,7 +16,6 @@
             padding: 30px 14px;
             max-width: 250px;
             max-height: 460px;
-            overflow: hidden;
 
             h3{
                 font-size: 1.1rem;
@@ -24,6 +23,10 @@
             }
             p{
                 margin: 10px 0px 10px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 8;
+                overflow: hidden;
             }
             img{
                 height: 100%;

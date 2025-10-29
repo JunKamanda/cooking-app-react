@@ -19,9 +19,21 @@ body{
     background: $white;
     font-family: $font-1;
     text-align: center;
-    margin: 0 30px;
+    margin: 0 10px;
 }
 
 li{
     list-style-type: none;
+}
+
+.title{
+    margin: 20px 0;
+
+    h1{
+        color: $color-1;
+    }
+}
+
+footer{
+    padding: 10px;
 }

@@ -40,7 +40,9 @@ const Card = () => {
       </div>
       <ul>
         {meals && meals.length > 0 ? (
-          meals.map((meal) => <Recette key={meal.idMeal} meal={meal} />)
+          meals
+          .slice(0,24)
+          .map((meal) => <Recette key={meal.idMeal} meal={meal} />)
         ) : (
           <p>Chargement...</p>
         )}
